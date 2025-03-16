@@ -1,0 +1,68 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<cls>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<eos>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "4": {
+      "content": "<mask>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<null>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "<null>"
+  ],
+  "bos_token": "<cls>",
+  "clean_up_tokenization_spaces": true,
+  "cls_token": "<cls>",
+  "codon": false,
+  "eos_token": "<eos>",
+  "mask_token": "<mask>",
+  "model_max_length": 513,
+  "nmers": 1,
+  "pad_token": "<pad>",
+  "replace_T_with_U": true,
+  "sep_token": "<eos>",
+  "tokenizer_class": "RnaTokenizer",
+  "unk_token": "<unk>"
+}

@@ -1,0 +1,13 @@
+{
+  "clean_up_tokenization_spaces": true,
+  "do_lower_case": false,
+  "model_max_length": 512,
+  "special_tokens": {
+    "mask_token": "[MASK]",
+    "pad_token": "[PAD]",
+    "sep_token": "[SEP]"
+  },
+  "tokenize_chinese_chars": false,
+  "tokenizer_class": "PreTrainedTokenizerFast",
+  "trust_remote_code": true
+}

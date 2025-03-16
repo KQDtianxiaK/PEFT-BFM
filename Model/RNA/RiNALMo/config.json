@@ -1,0 +1,52 @@
+{
+  "architectures": [
+    "RiNALMoForPreTraining"
+  ],
+  "attention_dropout": 0.1,
+  "bos_token_id": 1,
+  "emb_layer_norm_before": true,
+  "eos_token_id": 2,
+  "head": {
+    "act": null,
+    "bias": true,
+    "dropout": 0.0,
+    "hidden_size": null,
+    "layer_norm_eps": 1e-12,
+    "num_labels": null,
+    "output_name": null,
+    "problem_type": null,
+    "transform": null,
+    "transform_act": "gelu"
+  },
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.1,
+  "hidden_size": 1280,
+  "initializer_range": 0.02,
+  "intermediate_size": 5120,
+  "layer_norm_eps": 1e-12,
+  "learnable_beta": true,
+  "lm_head": {
+    "act": null,
+    "bias": true,
+    "dropout": 0.0,
+    "hidden_size": 1280,
+    "layer_norm_eps": 1e-12,
+    "output_name": null,
+    "transform": "nonlinear",
+    "transform_act": "gelu"
+  },
+  "mask_token_id": 4,
+  "max_position_embeddings": 1024,
+  "model_type": "rinalmo",
+  "null_token_id": 5,
+  "num_attention_heads": 20,
+  "num_hidden_layers": 33,
+  "pad_token_id": 0,
+  "position_embedding_type": "rotary",
+  "token_dropout": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.44.0",
+  "unk_token_id": 3,
+  "use_cache": true,
+  "vocab_size": 26
+}

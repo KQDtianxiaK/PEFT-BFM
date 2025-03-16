@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "ESMplusplusForMaskedLM"
+  ],
+  "auto_map": {
+  "AutoConfig": "modeling_esm_plusplus.ESMplusplusConfig",
+  "AutoModel": "modeling_esm_plusplus.ESMplusplusModel",
+  "AutoModelForMaskedLM": "modeling_esm_plusplus.ESMplusplusForMaskedLM",
+  "AutoModelForSequenceClassification": "modeling_esm_plusplus.ESMplusplusForSequenceClassification",
+  "AutoModelForTokenClassification": "modeling_esm_plusplus.ESMplusplusForTokenClassification"
+  },
+  "hidden_size": 1152,
+  "model_type": "ESMplusplus",
+  "num_attention_heads": 18,
+  "num_hidden_layers": 36,
+  "torch_dtype": "float32",
+  "transformers_version": "4.45.0",
+  "vocab_size": 64
+}
